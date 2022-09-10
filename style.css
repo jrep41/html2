@@ -1,0 +1,121 @@
+body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: darkgrey;
+  height: 100%;
+  width: 100%;
+  border: 1px solid green;
+}
+
+header {
+  text-align: center;
+
+  background-color: coral;
+  height: 3em;
+  border: 1px solid green;
+  margin: 1em;
+}
+
+nav {
+  display: flex;
+  width: 90%;
+
+  background-color: lightblue;
+  border: 1px solid green;
+  margin: 1em;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid yellow;
+  background-color: aqua;
+  margin: 2em;
+  text-align: justify;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid yellow;
+  background-color: red;
+  margin: 1em;
+}
+
+aside {
+  background-color: blueviolet;
+  align-self: left;
+  width: 30%;
+  border: 1px solid green;
+  margin: 1em;
+}
+
+footer {
+  background-color: blueviolet;
+  text-align: center;
+  padding: 0.5em;
+  border: 1px solid green;
+  margin: 1em;
+}
+
+table {
+  margin: 0 auto;
+}
+
+#footerBody {
+  display: block;
+  background-color: darkolivegreen;
+}
+
+#inicio {
+  display: inline-block;
+  width: 100%;
+  padding: 0%;
+  margin: 0.5em 0 0.5em 0;
+}
+
+#secAside {
+  display: flex;
+
+  width: 90%;
+  height: 95%;
+}
+
+#navAside {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style-type: none;
+  height: 90%;
+  padding: 1em 0 1em 0;
+}
+
+#mainAa {
+  display: flex;
+  background-color: dodgerblue;
+  margin: auto;
+  width: 90%;
+}
+
+#pAbajo {
+  width: 30%;
+  background-color: brown;
+  padding: 0;
+  margin: 0%;
+}
+
+#asideAbajo {
+  width: 40%;
+  height: 80%;
+  align-self: right;
+}
+
+p {
+  margin: 2em;
+}
